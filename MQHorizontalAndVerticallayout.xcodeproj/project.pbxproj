@@ -15,8 +15,6 @@
 		FAE8F76D1D5D7C550045931C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE8F76B1D5D7C550045931C /* Main.storyboard */; };
 		FAE8F76F1D5D7C550045931C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE8F76E1D5D7C550045931C /* Assets.xcassets */; };
 		FAE8F7721D5D7C550045931C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE8F7701D5D7C550045931C /* LaunchScreen.storyboard */; };
-		FAE8F77D1D5D7C550045931C /* MQHorizontalAndVerticallayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE8F77C1D5D7C550045931C /* MQHorizontalAndVerticallayoutTests.m */; };
-		FAE8F7881D5D7C550045931C /* MQHorizontalAndVerticallayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE8F7871D5D7C550045931C /* MQHorizontalAndVerticallayoutUITests.m */; };
 		FAE8F7991D5D7D4B0045931C /* RightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE8F7981D5D7D4B0045931C /* RightTableViewCell.m */; };
 		FAE8F79C1D5D97B50045931C /* RightTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE8F79B1D5D97B50045931C /* RightTableHeaderView.m */; };
 		FAE8F79F1D5D97CA0045931C /* LeftTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE8F79E1D5D97CA0045931C /* LeftTableHeaderView.m */; };
@@ -57,11 +55,7 @@
 		FAE8F7711D5D7C550045931C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAE8F7731D5D7C550045931C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAE8F7781D5D7C550045931C /* MQHorizontalAndVerticallayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQHorizontalAndVerticallayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAE8F77C1D5D7C550045931C /* MQHorizontalAndVerticallayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQHorizontalAndVerticallayoutTests.m; sourceTree = "<group>"; };
-		FAE8F77E1D5D7C550045931C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAE8F7831D5D7C550045931C /* MQHorizontalAndVerticallayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQHorizontalAndVerticallayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAE8F7871D5D7C550045931C /* MQHorizontalAndVerticallayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQHorizontalAndVerticallayoutUITests.m; sourceTree = "<group>"; };
-		FAE8F7891D5D7C550045931C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAE8F7951D5D7CF10045931C /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		FAE8F7961D5D7CFF0045931C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		FAE8F7971D5D7D4B0045931C /* RightTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightTableViewCell.h; sourceTree = "<group>"; };
@@ -103,8 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				FAE8F7611D5D7C550045931C /* MQHorizontalAndVerticallayout */,
-				FAE8F77B1D5D7C550045931C /* MQHorizontalAndVerticallayoutTests */,
-				FAE8F7861D5D7C550045931C /* MQHorizontalAndVerticallayoutUITests */,
 				FAE8F7601D5D7C550045931C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -155,24 +147,6 @@
 				18C724B11E0A5D7600EF8274 /* NSArray+Extension.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FAE8F77B1D5D7C550045931C /* MQHorizontalAndVerticallayoutTests */ = {
-			isa = PBXGroup;
-			children = (
-				FAE8F77C1D5D7C550045931C /* MQHorizontalAndVerticallayoutTests.m */,
-				FAE8F77E1D5D7C550045931C /* Info.plist */,
-			);
-			path = MQHorizontalAndVerticallayoutTests;
-			sourceTree = "<group>";
-		};
-		FAE8F7861D5D7C550045931C /* MQHorizontalAndVerticallayoutUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FAE8F7871D5D7C550045931C /* MQHorizontalAndVerticallayoutUITests.m */,
-				FAE8F7891D5D7C550045931C /* Info.plist */,
-			);
-			path = MQHorizontalAndVerticallayoutUITests;
 			sourceTree = "<group>";
 		};
 		FAE8F7A31D5DA43D0045931C /* Extension */ = {
@@ -331,7 +305,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE8F77D1D5D7C550045931C /* MQHorizontalAndVerticallayoutTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +312,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE8F7881D5D7C550045931C /* MQHorizontalAndVerticallayoutUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

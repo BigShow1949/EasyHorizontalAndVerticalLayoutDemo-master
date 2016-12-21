@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface NSArray (Extension)
+
+/**
+ 获取 cls 类的属性数组
+ */
 + (instancetype)getProperties:(Class)cls;
 @end

@@ -14,6 +14,7 @@
 #import "HeaderViewProtocol.h"
 #import "Model.h"
 #import "NSArray+Extension.h"
+
 @interface ViewController () <
     UITableViewDelegate,
     UITableViewDataSource,HeaderViewProtocol>
@@ -27,7 +28,7 @@
 
 @end
 
-#define WidthForItem  100
+#define WidthForItem  70
 #define HeightForHeader  60
 #define HeightForRow  44
 #define WidthForLeft  70
@@ -267,7 +268,9 @@
     myModel4.chemistry = @(80);
     [_datas addObject:myModel4];
 
-    _contentSizeOfX = 5 * WidthForItem;
+    // Model 属性个数
+    NSArray *arr = [NSArray getProperties:[Model class]];
+    _contentSizeOfX = (arr.count-1) * WidthForItem;
 }
 
 
