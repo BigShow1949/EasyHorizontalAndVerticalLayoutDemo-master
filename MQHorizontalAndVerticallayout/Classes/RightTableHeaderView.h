@@ -11,6 +11,9 @@
 
 @interface RightTableHeaderView : UIView<HeaderViewProtocol>
 
+@property (nonatomic, assign) CGFloat widthForItem;
+@property (nonatomic, assign) CGFloat heightForItem;
+
 - (void)configureWithItem:(id)item;
 
 @property (nonatomic, weak) id<HeaderViewProtocol> delegate;

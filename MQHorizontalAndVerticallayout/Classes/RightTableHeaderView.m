@@ -15,8 +15,8 @@
 - (void)configureWithItem:(id)item
 {
     NSArray *datas = item;
-    CGFloat widthForItem = 100;
-    CGFloat heightForItem = 44;
+    CGFloat widthForItem = self.frame.size.width / datas.count;
+    CGFloat heightForItem = self.frame.size.height;
     UIButton *btn = [self viewWithTag:100];
     
     if (btn == NULL) {

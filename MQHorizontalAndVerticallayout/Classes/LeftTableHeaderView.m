@@ -22,7 +22,7 @@
     if (self = [super initWithFrame:frame]) {
         
         self.backgroundColor = ColorWhite;
-        self.btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 70, 44)];
+        self.btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
         self.btn.backgroundColor = [UIColor lightGrayColor];
         [self.btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [self.btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];

@@ -7,65 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18C724AF1E0A569700EF8274 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C724AE1E0A569700EF8274 /* Model.m */; };
-		18C724B21E0A5D7600EF8274 /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C724B11E0A5D7600EF8274 /* NSArray+Extension.m */; };
-		FAE8F7641D5D7C550045931C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE8F7631D5D7C550045931C /* main.m */; };
-		FAE8F7671D5D7C550045931C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE8F7661D5D7C550045931C /* AppDelegate.m */; };
-		FAE8F76A1D5D7C550045931C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE8F7691D5D7C550045931C /* ViewController.m */; };
+		18C724C81E0A71CB00EF8274 /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C724B61E0A71CB00EF8274 /* NSArray+Extension.m */; };
+		18C724C91E0A71CB00EF8274 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C724B81E0A71CB00EF8274 /* UIView+YYAdd.m */; };
+		18C724CA1E0A71CB00EF8274 /* LeftTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C724BB1E0A71CB00EF8274 /* LeftTableHeaderView.m */; };
+		18C724CB1E0A71CB00EF8274 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C724BD1E0A71CB00EF8274 /* Model.m */; };
+		18C724CC1E0A71CB00EF8274 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C724C01E0A71CB00EF8274 /* AppDelegate.m */; };
+		18C724CD1E0A71CB00EF8274 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C724C11E0A71CB00EF8274 /* main.m */; };
+		18C724CE1E0A71CB00EF8274 /* RightTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C724C31E0A71CB00EF8274 /* RightTableHeaderView.m */; };
+		18C724CF1E0A71CB00EF8274 /* RightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C724C51E0A71CB00EF8274 /* RightTableViewCell.m */; };
+		18C724D01E0A71CB00EF8274 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C724C71E0A71CB00EF8274 /* ViewController.m */; };
 		FAE8F76D1D5D7C550045931C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE8F76B1D5D7C550045931C /* Main.storyboard */; };
 		FAE8F76F1D5D7C550045931C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE8F76E1D5D7C550045931C /* Assets.xcassets */; };
 		FAE8F7721D5D7C550045931C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE8F7701D5D7C550045931C /* LaunchScreen.storyboard */; };
-		FAE8F7991D5D7D4B0045931C /* RightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE8F7981D5D7D4B0045931C /* RightTableViewCell.m */; };
-		FAE8F79C1D5D97B50045931C /* RightTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE8F79B1D5D97B50045931C /* RightTableHeaderView.m */; };
-		FAE8F79F1D5D97CA0045931C /* LeftTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE8F79E1D5D97CA0045931C /* LeftTableHeaderView.m */; };
-		FAE8F7A21D5D99DC0045931C /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE8F7A11D5D99DC0045931C /* UIView+YYAdd.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		FAE8F7791D5D7C550045931C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FAE8F7571D5D7C550045931C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FAE8F75E1D5D7C550045931C;
-			remoteInfo = MQHorizontalAndVerticallayout;
-		};
-		FAE8F7841D5D7C550045931C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FAE8F7571D5D7C550045931C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FAE8F75E1D5D7C550045931C;
-			remoteInfo = MQHorizontalAndVerticallayout;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		18C724AC1E0A54AA00EF8274 /* HeaderViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderViewProtocol.h; sourceTree = "<group>"; };
-		18C724AD1E0A569700EF8274 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
-		18C724AE1E0A569700EF8274 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
-		18C724B01E0A5D7600EF8274 /* NSArray+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
-		18C724B11E0A5D7600EF8274 /* NSArray+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extension.m"; sourceTree = "<group>"; };
+		18C724B51E0A71CB00EF8274 /* NSArray+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
+		18C724B61E0A71CB00EF8274 /* NSArray+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extension.m"; sourceTree = "<group>"; };
+		18C724B71E0A71CB00EF8274 /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
+		18C724B81E0A71CB00EF8274 /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
+		18C724BA1E0A71CB00EF8274 /* LeftTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableHeaderView.h; sourceTree = "<group>"; };
+		18C724BB1E0A71CB00EF8274 /* LeftTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableHeaderView.m; sourceTree = "<group>"; };
+		18C724BC1E0A71CB00EF8274 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		18C724BD1E0A71CB00EF8274 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		18C724BF1E0A71CB00EF8274 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18C724C01E0A71CB00EF8274 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18C724C11E0A71CB00EF8274 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18C724C21E0A71CB00EF8274 /* RightTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightTableHeaderView.h; sourceTree = "<group>"; };
+		18C724C31E0A71CB00EF8274 /* RightTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightTableHeaderView.m; sourceTree = "<group>"; };
+		18C724C41E0A71CB00EF8274 /* RightTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightTableViewCell.h; sourceTree = "<group>"; };
+		18C724C51E0A71CB00EF8274 /* RightTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightTableViewCell.m; sourceTree = "<group>"; };
+		18C724C61E0A71CB00EF8274 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18C724C71E0A71CB00EF8274 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FAE8F75F1D5D7C550045931C /* MQHorizontalAndVerticallayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQHorizontalAndVerticallayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAE8F7631D5D7C550045931C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FAE8F7651D5D7C550045931C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FAE8F7661D5D7C550045931C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FAE8F7681D5D7C550045931C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FAE8F7691D5D7C550045931C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FAE8F76C1D5D7C550045931C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAE8F76E1D5D7C550045931C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAE8F7711D5D7C550045931C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAE8F7731D5D7C550045931C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAE8F7781D5D7C550045931C /* MQHorizontalAndVerticallayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQHorizontalAndVerticallayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAE8F7831D5D7C550045931C /* MQHorizontalAndVerticallayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQHorizontalAndVerticallayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE8F7951D5D7CF10045931C /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		FAE8F7961D5D7CFF0045931C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		FAE8F7971D5D7D4B0045931C /* RightTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightTableViewCell.h; sourceTree = "<group>"; };
-		FAE8F7981D5D7D4B0045931C /* RightTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightTableViewCell.m; sourceTree = "<group>"; };
-		FAE8F79A1D5D97B50045931C /* RightTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightTableHeaderView.h; sourceTree = "<group>"; };
-		FAE8F79B1D5D97B50045931C /* RightTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightTableHeaderView.m; sourceTree = "<group>"; };
-		FAE8F79D1D5D97CA0045931C /* LeftTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableHeaderView.h; sourceTree = "<group>"; };
-		FAE8F79E1D5D97CA0045931C /* LeftTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableHeaderView.m; sourceTree = "<group>"; };
-		FAE8F7A01D5D99DC0045931C /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
-		FAE8F7A11D5D99DC0045931C /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,23 +57,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAE8F7751D5D7C550045931C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAE8F7801D5D7C550045931C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18C724B31E0A71CB00EF8274 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18C724B41E0A71CB00EF8274 /* Category */,
+				18C724B91E0A71CB00EF8274 /* HomePage */,
+				18C724BA1E0A71CB00EF8274 /* LeftTableHeaderView.h */,
+				18C724BB1E0A71CB00EF8274 /* LeftTableHeaderView.m */,
+				18C724BC1E0A71CB00EF8274 /* Model.h */,
+				18C724BD1E0A71CB00EF8274 /* Model.m */,
+				18C724C21E0A71CB00EF8274 /* RightTableHeaderView.h */,
+				18C724C31E0A71CB00EF8274 /* RightTableHeaderView.m */,
+				18C724C41E0A71CB00EF8274 /* RightTableViewCell.h */,
+				18C724C51E0A71CB00EF8274 /* RightTableViewCell.m */,
+				18C724C61E0A71CB00EF8274 /* ViewController.h */,
+				18C724C71E0A71CB00EF8274 /* ViewController.m */,
+				18C724BE1E0A71CB00EF8274 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		18C724B41E0A71CB00EF8274 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18C724B51E0A71CB00EF8274 /* NSArray+Extension.h */,
+				18C724B61E0A71CB00EF8274 /* NSArray+Extension.m */,
+				18C724B71E0A71CB00EF8274 /* UIView+YYAdd.h */,
+				18C724B81E0A71CB00EF8274 /* UIView+YYAdd.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		18C724B91E0A71CB00EF8274 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		18C724BE1E0A71CB00EF8274 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				18C724BF1E0A71CB00EF8274 /* AppDelegate.h */,
+				18C724C01E0A71CB00EF8274 /* AppDelegate.m */,
+				18C724C11E0A71CB00EF8274 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		FAE8F7561D5D7C550045931C = {
 			isa = PBXGroup;
 			children = (
@@ -105,8 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				FAE8F75F1D5D7C550045931C /* MQHorizontalAndVerticallayout.app */,
-				FAE8F7781D5D7C550045931C /* MQHorizontalAndVerticallayoutTests.xctest */,
-				FAE8F7831D5D7C550045931C /* MQHorizontalAndVerticallayoutUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,27 +127,8 @@
 		FAE8F7611D5D7C550045931C /* MQHorizontalAndVerticallayout */ = {
 			isa = PBXGroup;
 			children = (
-				FAE8F7651D5D7C550045931C /* AppDelegate.h */,
-				FAE8F7661D5D7C550045931C /* AppDelegate.m */,
-				FAE8F7681D5D7C550045931C /* ViewController.h */,
-				FAE8F7691D5D7C550045931C /* ViewController.m */,
-				FAE8F7971D5D7D4B0045931C /* RightTableViewCell.h */,
-				FAE8F7981D5D7D4B0045931C /* RightTableViewCell.m */,
-				FAE8F79A1D5D97B50045931C /* RightTableHeaderView.h */,
-				FAE8F79B1D5D97B50045931C /* RightTableHeaderView.m */,
-				FAE8F79D1D5D97CA0045931C /* LeftTableHeaderView.h */,
-				FAE8F79E1D5D97CA0045931C /* LeftTableHeaderView.m */,
-				FAE8F7951D5D7CF10045931C /* Constant.h */,
-				18C724AC1E0A54AA00EF8274 /* HeaderViewProtocol.h */,
-				FAE8F7961D5D7CFF0045931C /* PrefixHeader.pch */,
-				FAE8F7A31D5DA43D0045931C /* Extension */,
-				FAE8F76B1D5D7C550045931C /* Main.storyboard */,
-				FAE8F76E1D5D7C550045931C /* Assets.xcassets */,
-				FAE8F7701D5D7C550045931C /* LaunchScreen.storyboard */,
-				FAE8F7731D5D7C550045931C /* Info.plist */,
+				18C724B31E0A71CB00EF8274 /* Classes */,
 				FAE8F7621D5D7C550045931C /* Supporting Files */,
-				18C724AD1E0A569700EF8274 /* Model.h */,
-				18C724AE1E0A569700EF8274 /* Model.m */,
 			);
 			path = MQHorizontalAndVerticallayout;
 			sourceTree = "<group>";
@@ -142,20 +136,15 @@
 		FAE8F7621D5D7C550045931C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FAE8F7631D5D7C550045931C /* main.m */,
-				18C724B01E0A5D7600EF8274 /* NSArray+Extension.h */,
-				18C724B11E0A5D7600EF8274 /* NSArray+Extension.m */,
+				FAE8F76B1D5D7C550045931C /* Main.storyboard */,
+				FAE8F76E1D5D7C550045931C /* Assets.xcassets */,
+				FAE8F7701D5D7C550045931C /* LaunchScreen.storyboard */,
+				FAE8F7731D5D7C550045931C /* Info.plist */,
+				FAE8F7951D5D7CF10045931C /* Constant.h */,
+				18C724AC1E0A54AA00EF8274 /* HeaderViewProtocol.h */,
+				FAE8F7961D5D7CFF0045931C /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FAE8F7A31D5DA43D0045931C /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				FAE8F7A01D5D99DC0045931C /* UIView+YYAdd.h */,
-				FAE8F7A11D5D99DC0045931C /* UIView+YYAdd.m */,
-			);
-			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,42 +167,6 @@
 			productReference = FAE8F75F1D5D7C550045931C /* MQHorizontalAndVerticallayout.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FAE8F7771D5D7C550045931C /* MQHorizontalAndVerticallayoutTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FAE8F78F1D5D7C550045931C /* Build configuration list for PBXNativeTarget "MQHorizontalAndVerticallayoutTests" */;
-			buildPhases = (
-				FAE8F7741D5D7C550045931C /* Sources */,
-				FAE8F7751D5D7C550045931C /* Frameworks */,
-				FAE8F7761D5D7C550045931C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FAE8F77A1D5D7C550045931C /* PBXTargetDependency */,
-			);
-			name = MQHorizontalAndVerticallayoutTests;
-			productName = MQHorizontalAndVerticallayoutTests;
-			productReference = FAE8F7781D5D7C550045931C /* MQHorizontalAndVerticallayoutTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		FAE8F7821D5D7C550045931C /* MQHorizontalAndVerticallayoutUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FAE8F7921D5D7C550045931C /* Build configuration list for PBXNativeTarget "MQHorizontalAndVerticallayoutUITests" */;
-			buildPhases = (
-				FAE8F77F1D5D7C550045931C /* Sources */,
-				FAE8F7801D5D7C550045931C /* Frameworks */,
-				FAE8F7811D5D7C550045931C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FAE8F7851D5D7C550045931C /* PBXTargetDependency */,
-			);
-			name = MQHorizontalAndVerticallayoutUITests;
-			productName = MQHorizontalAndVerticallayoutUITests;
-			productReference = FAE8F7831D5D7C550045931C /* MQHorizontalAndVerticallayoutUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -226,14 +179,6 @@
 					FAE8F75E1D5D7C550045931C = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 686TP5D9Q7;
-					};
-					FAE8F7771D5D7C550045931C = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = FAE8F75E1D5D7C550045931C;
-					};
-					FAE8F7821D5D7C550045931C = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = FAE8F75E1D5D7C550045931C;
 					};
 				};
 			};
@@ -251,8 +196,6 @@
 			projectRoot = "";
 			targets = (
 				FAE8F75E1D5D7C550045931C /* MQHorizontalAndVerticallayout */,
-				FAE8F7771D5D7C550045931C /* MQHorizontalAndVerticallayoutTests */,
-				FAE8F7821D5D7C550045931C /* MQHorizontalAndVerticallayoutUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,20 +211,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAE8F7761D5D7C550045931C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAE8F7811D5D7C550045931C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -289,46 +218,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE8F79C1D5D97B50045931C /* RightTableHeaderView.m in Sources */,
-				FAE8F7A21D5D99DC0045931C /* UIView+YYAdd.m in Sources */,
-				FAE8F79F1D5D97CA0045931C /* LeftTableHeaderView.m in Sources */,
-				18C724B21E0A5D7600EF8274 /* NSArray+Extension.m in Sources */,
-				18C724AF1E0A569700EF8274 /* Model.m in Sources */,
-				FAE8F7991D5D7D4B0045931C /* RightTableViewCell.m in Sources */,
-				FAE8F76A1D5D7C550045931C /* ViewController.m in Sources */,
-				FAE8F7671D5D7C550045931C /* AppDelegate.m in Sources */,
-				FAE8F7641D5D7C550045931C /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAE8F7741D5D7C550045931C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAE8F77F1D5D7C550045931C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				18C724D01E0A71CB00EF8274 /* ViewController.m in Sources */,
+				18C724CF1E0A71CB00EF8274 /* RightTableViewCell.m in Sources */,
+				18C724C91E0A71CB00EF8274 /* UIView+YYAdd.m in Sources */,
+				18C724CA1E0A71CB00EF8274 /* LeftTableHeaderView.m in Sources */,
+				18C724C81E0A71CB00EF8274 /* NSArray+Extension.m in Sources */,
+				18C724CB1E0A71CB00EF8274 /* Model.m in Sources */,
+				18C724CE1E0A71CB00EF8274 /* RightTableHeaderView.m in Sources */,
+				18C724CD1E0A71CB00EF8274 /* main.m in Sources */,
+				18C724CC1E0A71CB00EF8274 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FAE8F77A1D5D7C550045931C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FAE8F75E1D5D7C550045931C /* MQHorizontalAndVerticallayout */;
-			targetProxy = FAE8F7791D5D7C550045931C /* PBXContainerItemProxy */;
-		};
-		FAE8F7851D5D7C550045931C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FAE8F75E1D5D7C550045931C /* MQHorizontalAndVerticallayout */;
-			targetProxy = FAE8F7841D5D7C550045931C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FAE8F76B1D5D7C550045931C /* Main.storyboard */ = {
@@ -462,52 +364,6 @@
 			};
 			name = Release;
 		};
-		FAE8F7901D5D7C550045931C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = MQHorizontalAndVerticallayoutTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = QIYIKE.MQHorizontalAndVerticallayoutTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MQHorizontalAndVerticallayout.app/MQHorizontalAndVerticallayout";
-			};
-			name = Debug;
-		};
-		FAE8F7911D5D7C550045931C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = MQHorizontalAndVerticallayoutTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = QIYIKE.MQHorizontalAndVerticallayoutTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MQHorizontalAndVerticallayout.app/MQHorizontalAndVerticallayout";
-			};
-			name = Release;
-		};
-		FAE8F7931D5D7C550045931C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = MQHorizontalAndVerticallayoutUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = QIYIKE.MQHorizontalAndVerticallayoutUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = MQHorizontalAndVerticallayout;
-			};
-			name = Debug;
-		};
-		FAE8F7941D5D7C550045931C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = MQHorizontalAndVerticallayoutUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = QIYIKE.MQHorizontalAndVerticallayoutUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = MQHorizontalAndVerticallayout;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -525,24 +381,6 @@
 			buildConfigurations = (
 				FAE8F78D1D5D7C550045931C /* Debug */,
 				FAE8F78E1D5D7C550045931C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FAE8F78F1D5D7C550045931C /* Build configuration list for PBXNativeTarget "MQHorizontalAndVerticallayoutTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FAE8F7901D5D7C550045931C /* Debug */,
-				FAE8F7911D5D7C550045931C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FAE8F7921D5D7C550045931C /* Build configuration list for PBXNativeTarget "MQHorizontalAndVerticallayoutUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FAE8F7931D5D7C550045931C /* Debug */,
-				FAE8F7941D5D7C550045931C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

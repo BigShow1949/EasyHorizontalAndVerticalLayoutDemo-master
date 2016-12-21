@@ -22,14 +22,13 @@
 - (void)configureWithItem:(Model *)item
 {
     NSArray *datas = @[item.age, item.math, item.chinese, item.english, item.chemistry];
-    CGFloat widthForItem = 100;
-    CGFloat heightForItem = 44;
+    
     UILabel *label = [self viewWithTag:100];
     
     if (label == NULL) {
         
         for (NSInteger i = 0 ; i < datas.count; i++) {
-            UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(widthForItem * i, 0, widthForItem, heightForItem - 3)];
+            UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(self.widthForItem * i, 0, self.widthForItem, self.heightForItem - 3)];
             
             label.textAlignment = NSTextAlignmentCenter;
             label.numberOfLines = 2;
@@ -38,7 +37,7 @@
             [self addSubview:label];
             
         }
-        UIView *lineView = [[UIView alloc] initWithFrame:CGRectMake(0,  heightForItem - .5,  widthForItem * datas.count, .5)];
+        UIView *lineView = [[UIView alloc] initWithFrame:CGRectMake(0, self.heightForItem - .5,  self.widthForItem * datas.count, .5)];
         lineView.backgroundColor = ColorTableSeparator;
         [self.contentView addSubview:lineView];
         

@@ -11,6 +11,9 @@
 
 @interface RightTableViewCell : UITableViewCell
 
+@property (nonatomic, assign) CGFloat widthForItem;
+@property (nonatomic, assign) CGFloat heightForItem;
+
 - (void)configureWithItem:(Model *)item;
 
 @end

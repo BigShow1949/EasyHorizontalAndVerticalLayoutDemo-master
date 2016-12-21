@@ -38,7 +38,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"上下左右滑动";
+
+    self.title = @"消息";
     self.view.backgroundColor = ColorWhite;
     self.automaticallyAdjustsScrollViewInsets = NO;
     [self requestDatas];
@@ -88,7 +89,7 @@
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
     if (tableView == _rightTableView) {
-        RightTableHeaderView  *headerView = [[RightTableHeaderView alloc] initWithFrame:CGRectMake(0, 0, _contentSizeOfX, HeightForHeader)];
+        RightTableHeaderView *headerView = [[RightTableHeaderView alloc] initWithFrame:CGRectMake(0, 0, _contentSizeOfX, HeightForHeader)]; //
         headerView.delegate = self;
         headerView.backgroundColor = ColorWhite;
         [headerView configureWithItem:@[@"年龄", @"数学", @"语文", @"英语", @"化学"]];
@@ -116,9 +117,9 @@
         return cell;
     } else {
         RightTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"right"];
-        
+        cell.widthForItem = WidthForItem;
+        cell.heightForItem = HeightForRow;
         Model *myModel = _datas[indexPath.row];
-        NSLog(@"age = %@", myModel.age);
         [cell configureWithItem:myModel];
         
         return cell;
@@ -195,6 +196,7 @@
 {
     if (!_rightScrollView) {
         _rightScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(self.leftTableView.right, self.leftTableView.top, ScreenWidth  - self.leftTableView.width, self.leftTableView.height)];
+        NSLog(@"_contentSizeOfX = %f", _contentSizeOfX);
         _rightScrollView.contentSize = CGSizeMake(_contentSizeOfX, self.leftTableView.height);
         _rightScrollView.bounces = NO;
         _rightScrollView.alwaysBounceVertical = YES;
@@ -270,6 +272,7 @@
 
     // Model 属性个数
     NSArray *arr = [NSArray getProperties:[Model class]];
+    NSLog(@"count = %zd", arr.count);
     _contentSizeOfX = (arr.count-1) * WidthForItem;
 }
 

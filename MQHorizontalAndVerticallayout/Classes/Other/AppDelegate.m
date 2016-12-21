@@ -18,10 +18,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    ViewController *c1=[[ViewController alloc]init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:c1];
+    c1.tabBarItem.title=@"消息";
+    c1.tabBarItem.image=[UIImage imageNamed:@"tabbar_home"];
+    //    c1.tabBarItem.badgeValue=@"123";
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
+    UITabBarController *tb=[[UITabBarController alloc]init];
+    self.window.rootViewController = tb;
+    
+    tb.viewControllers=@[nav];
+    
     [self.window makeKeyAndVisible];
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
     return YES;
 }
 
